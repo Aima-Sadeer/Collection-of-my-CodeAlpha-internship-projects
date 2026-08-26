@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gallery | CodeAlpha</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <h1>My Gallery</h1>
+        <p>Explore beautiful moments through my gallery</p>
+    </header>
+
+    <!-- Filter Buttons -->
+    <section class="filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="nature">Nature</button>
+        <button class="filter-btn" data-filter="travel">Travel</button>
+        <button class="filter-btn" data-filter="animals">Animals</button>
+        <button class="filter-btn" data-filter="architecture">Architecture</button>
+    </section>
+
+    <!-- Gallery -->
+    <main class="gallery">
+
+        <!-- Nature Images -->
+
+        <div class="gallery-item" data-category="nature">
+            <img src="images/nature1.jpg" alt="Beautiful Nature">
+        </div>
+
+        <div class="gallery-item" data-category="nature">
+            <img src="images/nature2.jpg" alt="Nature Landscape">
+        </div>
+
+        <div class="gallery-item" data-category="nature">
+            <img src="images/nature3.jpg" alt="Mountain View">
+        </div>
+
+        <div class="gallery-item" data-category="nature">
+            <img src="images/nature4.jpg" alt="Beautiful Nature">
+        </div>
+
+        <div class="gallery-item" data-category="nature">
+            <img src="images/nature5.jpg" alt="Beautiful Nature Landscape">
+        </div>
+
+
+        <!-- Travel Images -->
+
+        <div class="gallery-item" data-category="travel">
+            <img src="images/travel1.jpg" alt="Travel Destination">
+        </div>
+
+        <div class="gallery-item" data-category="travel">
+            <img src="images/travel2.jpg" alt="Beautiful Travel Place">
+        </div>
+
+        <div class="gallery-item" data-category="travel">
+            <img src="images/travel3.jpg" alt="Beautiful Travel Destination">
+        </div>
+
+        <div class="gallery-item" data-category="travel">
+            <img src="images/travel4.jpg" alt="Amazing Travel Place">
+        </div>
+
+
+        <!-- Animal Images -->
+
+        <div class="gallery-item" data-category="animals">
+            <img src="images/animal1.jpg" alt="Cute Animal">
+        </div>
+
+        <div class="gallery-item" data-category="animals">
+            <img src="images/animal2.jpg" alt="Wild Animal">
+        </div>
+
+        <div class="gallery-item" data-category="animals">
+            <img src="images/animal3.jpg" alt="Cute Animal">
+        </div>
+
+        <div class="gallery-item" data-category="animals">
+            <img src="images/animal4.jpg" alt="Beautiful Animal">
+        </div>
+
+        <div class="gallery-item" data-category="animals">
+            <img src="images/animal5.jpg" alt="Wild Animal">
+        </div>
+
+
+        <!-- Architecture Images -->
+
+        <div class="gallery-item" data-category="architecture">
+            <img src="images/architecture1.jpg" alt="Beautiful Architecture">
+        </div>
+
+        <div class="gallery-item" data-category="architecture">
+            <img src="images/architecture2.jpg" alt="Beautiful Architecture">
+        </div>
+
+        <div class="gallery-item" data-category="architecture">
+            <img src="images/architecture3.jpg" alt="Modern Architecture">
+        </div>
+
+        <div class="gallery-item" data-category="architecture">
+            <img src="images/architecture4.jpg" alt="Amazing Architecture">
+        </div>
+
+    </main>
+
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+
+        <button class="close">&times;</button>
+
+        <button class="prev">&#10094;</button>
+
+        <img id="lightbox-img" src="" alt="Gallery Image">
+
+        <button class="next">&#10095;</button>
+
+    </div>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>2026 My Gallery | CodeAlpha Internship</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
