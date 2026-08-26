@@ -55,31 +55,31 @@ ImageGallery/
 
 ### Gallery
 
-![Gallery](ProjectViews/gallery.jpg)
+![Gallery](Projectviews/gallery.jpg)
 
 ### Animal
 
-![Animal](ProjectViews/Animal.jpg)
+![Animal](Projectviews/Animal.jpg)
 
 ### Architecture
 
-![Architecture](ProjectViews/Architecture.jpg)
+![Architecture](Projectviews/Architecture.jpg)
 
 ### Nature
 
-![Nature](ProjectViews/Nature.jpg)
+![Nature](Projectviews/Nature.jpg)
 
 ### Buttons
 
-![Buttons](ProjectViews/Buttons.jpg)
+![Buttons](Projectviews/Buttons.jpg)
 
 ### Travel
 
-![Travel](ProjectViews/Travel.jpg)
+![Travel](Projectviews/Travel.jpg)
 
 ### Zoom
 
-![Zoom](ProjectViews/Zoom.jpg)
+![Zoom](Projectviews/Zoom.jpg)
 ##  Internship
 
 This project was developed as part of my **Frontend Development Internship at CodeAlpha**.
