@@ -1,7 +1,3 @@
-Bilkul 👍 Tumhare **Calculator | CodeAlpha** project ke liye complete professional README de rahi hoon. Ismein tumhare **4 screenshots — `calculator.jpg`, `Addition.jpg`, `multiplication.jpg`, `Division.jpg`** bhi directly show honge.
-
-Bas GitHub mein `README.md` ko edit karke **poora purana content replace** kar dena.
-
 # Calculator
 
 A responsive and interactive **Calculator** website developed using **HTML, CSS, and JavaScript** as part of my Frontend Development Internship at **CodeAlpha**. This project provides a clean and user-friendly calculator interface with basic arithmetic operations and interactive buttons.
